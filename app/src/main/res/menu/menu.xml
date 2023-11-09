@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu"
+        android:title="Cor de Fundo"
+        app:showAsAction="never">
+
+    <menu>
+        <item
+            android:id="@+id/menuBlue"
+            android:title="azul"
+            />
+
+        <item
+            android:id="@+id/menuRed"
+            android:title="vermelho"
+            />
+    </menu>
+    </item>
+</menu>

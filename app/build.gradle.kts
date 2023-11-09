@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.kloster.matheus.voteapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.kloster.matheus.voteapp"
@@ -33,7 +33,9 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    viewBinding { enable = true }
+    viewBinding {
+        enable = true
+    }
     // buildFeatures {viewBinding = true}
 }
 
